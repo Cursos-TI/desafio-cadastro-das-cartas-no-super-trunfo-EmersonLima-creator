@@ -39,9 +39,9 @@ int main() {
     
     
     printf("Bem-vindo! Neste desafio,você irá realizar o cadastro de cartas do jogo: \n");
-    printf("Super Trunfo Países! \n");
+    printf("Super Trunfo Países! \n\n\n");
     printf("De início vamos cadastrar somente duas cartas do jogo Super Trunfo Países... \n");
-    printf("Está preparado? \n");
+    printf("Está preparado? \n\n\n");
     printf("Vamos começar com a primeira carta!!! \n");
     
     /*Solicitando os dados para o usuário usando a função printf("Digite... \n"); e armazenando os dados que o usuário digitar via entrada padrão (teclado),
@@ -69,7 +69,7 @@ int main() {
 
     printf("PRONTO! Graças ao seus dados informados, estarei criando a sua carta.\n");
     printf("... \n");
-    printf("Aqui está a sua carta: \n");
+    printf("Aqui está a sua carta: \n\n");
     printf("_____________________________________________________________________\n");
     printf("CARTA 1 de Código %s \n", Código_da_Carta);
     printf("Estado: %s \n", Estado);
@@ -77,14 +77,14 @@ int main() {
     printf("Nome da Cidade: %s \n", Nome_da_Cidade);
     printf("População: %d \n", População);
     printf("Área: %.2f km² \n", Área);  
-    printf("PIB: R$ %.3f \n", PIB);
+    printf("PIB: R$ %.2f \n", PIB);
     printf("Número de Pontos Turísticos: %d \n", Número_de_Pontos_Turísticos);
     printf("_____________________________________________________________________\n");
     
     // Agora o programa irá solicitar os dados para a segunda carta, repetindo o processo da primeira carta.
 
     printf("Vamos cadastrar a segunda carta?! \n");
-    printf("Agora que você já sabe como funciona, serei mais objetivo! \n");
+    printf("Agora que você já sabe como funciona, serei mais objetivo! \n\n");
     printf("Digite um Estado: \n");
     scanf("%s", Estado);
     printf("Digite o Código da sua Carta: \n");
@@ -100,7 +100,7 @@ int main() {
     printf("Digite o Número de Pontos Turísticos dessa Cidade: \n");
     scanf("%d", &Número_de_Pontos_Turísticos);
     printf("Estou processando a sua carta... \n");
-    printf("Aqui está a sua carta: \n");
+    printf("Aqui está a sua carta: \n\n");
     printf("_____________________________________________________________________\n");
     printf("CARTA 2 de Código %s \n", Código_da_Carta);
     printf("Estado: %s \n", Estado);
@@ -108,7 +108,7 @@ int main() {
     printf("Nome da Cidade: %s \n", Nome_da_Cidade);
     printf("População: %d \n", População);
     printf("Área: %.2f km² \n", Área);  
-    printf("PIB: R$ %.3f \n", PIB);
+    printf("PIB: R$ %.2f \n", PIB);
     printf("Número de Pontos Turísticos: %d \n", Número_de_Pontos_Turísticos);
     printf("_____________________________________________________________________\n");
     printf("Concluímos o cadastro das suas cartas! \n");
